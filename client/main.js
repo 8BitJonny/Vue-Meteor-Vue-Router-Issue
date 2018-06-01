@@ -22,11 +22,6 @@ const router = new VueRouter({
   routes
 })
 
-import 'vuetify/dist/vuetify.min.css'
-import Vuetify from 'vuetify/dist/vuetify.min.js'
-
-Vue.use(Vuetify)
-
 Meteor.startup(() => {
   new Vue({
     el: 'app',
